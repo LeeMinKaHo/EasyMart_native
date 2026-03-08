@@ -16,9 +16,28 @@ module.exports = {
           100: "#FCE8F9",
           50: "#FEF5FD",
         },
-      }
+        orange: {
+          900: "#6B250D",
+          800: "#8C3111",
+          700: "#B53F15",
+          600: "#F5551B",
+          500: "#FF6B22",
+          400: "#FF7A4B",
+          300: "#FF9068",
+          200: "#FFB398",
+          100: "#FFCCB9",
+          50: "#FFEEE9",
+        },
+      },
+      fontFamily: {
+        inter: ["Inter-Regular"],
+        "inter-medium": ["Inter-Medium"],
+        "inter-semibold": ["Inter-SemiBold"],
+        "inter-bold": ["Inter-Bold"],
+      },
     },
   },
   plugins: [],
 }
 
+// border-primary : F5F4F5

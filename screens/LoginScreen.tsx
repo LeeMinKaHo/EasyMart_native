@@ -1,15 +1,26 @@
 import { Pressable, TextInput, View, Text, StyleSheet } from "react-native";
+import { Image } from "react-native";
+import Input from "../components/ui/Input";
 
 export default function LoginScreen() {
    return (
       <View style={styles.container}>
-         <Text style={styles.title}>Login</Text>
+         <View className="flex items-center justify-center bg-orange-50">
+            <Image
+               source={require("../assets/logo.png")}
+
+            />
+         </View>
+         <Text className="text-3xl font-inter-bold mb-5 text-primary-900">Login</Text>
 
          <TextInput
             style={styles.input}
             placeholder="Email"
          />
-
+         <Input
+            style={styles.input}
+            placeholder="Email"
+         />
          <TextInput
             style={styles.input}
             placeholder="Password"

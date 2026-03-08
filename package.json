@@ -11,6 +11,8 @@
   "dependencies": {
     "babel-preset-expo": "^55.0.10",
     "expo": "~55.0.5",
+    "expo-font": "~55.0.4",
+    "expo-splash-screen": "~55.0.10",
     "expo-status-bar": "~55.0.4",
     "nativewind": "^4.2.2",
     "prettier-plugin-tailwindcss": "^0.5.14",
